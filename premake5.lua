@@ -29,18 +29,13 @@ project "ImGui"
 	{
             "src",
 		"%{IncludeDir.GLFW}",
-		"%{IncludeDir.glm}",
-		"%{IncludeDir.ImGui}",
-		"%{IncludeDir.stb_image}",
-		"%{IncludeDir.cgltf}",
 		"%{IncludeDir.VulkanSDK}"
 	}
 	
 	links
 	{
 		"GLFW",
-		"%{Library.Vulkan}",
-		"ImGui"
+		"%{Library.Vulkan}"
 	}
 
 
